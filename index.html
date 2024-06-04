@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Delhi Delicacies</title>
+</head>
+<body>
+
+    <div>
+        <img class="content-1img zoom" src="hero-slider-3.jpg" alt="pic">
+        <nav>
+            <div class="nav-logo">
+                <a href="#">
+                    <img class="logo" src="Chef_icon.svg.png" alt="photo">
+                </a>
+                <div class="nav-content">
+                    <h1>Urban</h1>
+                    <h4>restraunt</h4>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li class="links"><a href="#">HOME</a></li>
+                <li class="links"><a href="#menu">MENUS</a></li>
+                <li class="links"><a href="#aboutus">ABOUT US</a></li>
+                <li class="links"><a href="#ourchef">OUR CHEFS</a></li>
+                <li class="links"><a href="#contactus">CONTACT US</a></li>
+            </ul>
+            <div class="special-button">
+                <button id="openSignupPopup" class="popup-btnn">Signup</button>
+                <div class="overlayy" id="overlayy" style="display: none;"></div>
+                <div class="containerr" id="popupContainerr" style="display: none;">
+                    <div class="signup-sectionn">
+                        <header>Signup</header>
+                        <div class="social-buttons">
+                            <button onclick="googleSignup()"><i class='bx bxl-google'></i> Use Google</button>
+                            <button onclick="appleSignup()"><i class='bx bxl-apple'></i> Use Apple</button>
+                        </div>
+                        <div class="separatorr">
+                            <div class="line"></div>
+                            <p>Or</p>
+                            <div class="line"></div>
+                        </div>
+                        <form id="signupForm">
+                            <input type="text" id="fullName" placeholder="Full name" required>
+                            <input type="email" id="signupEmail" placeholder="Email address" required>
+                            <input type="password" id="signupPassword" placeholder="Password" required>
+                            <button type="submit" id="signup-button1" class="btn">Signup</button>
+                        </form>
+                        <a class="forgetPass" href="#" onclick="forgotPassword()">Forget Password?</a>
+                    </div>
+                    <div class="login-sectionn">
+                        <header>Login</header>
+                        <div class="social-buttons" >
+                            <button onclick="googleSignup()"><i class='bx bxl-google'></i> Use Google</button>
+                            <button onclick="appleSignup()"><i class='bx bxl-apple'></i> Use Apple</button>
+                        </div>
+                        <div class="separatorr">
+                            <div class="line"></div>
+                            <p>Or</p>
+                            <div class="line"></div>
+                        </div>
+                        <form id="loginForm">
+                            <input type="email" id="loginEmail" placeholder="Email address" required>
+                            <input type="password" id="loginPassword" placeholder="Password" required>
+                            <button type="submit" class="btn0">Login</button>
+                        </form>
+                        <a class="forgetPass" href="#" onclick="forgotPassword()">Forget Password?</a>
+                    </div>
+                </div>
+            </div>
+            
+        </nav>
+
+        <header class="container">
+            <div class="content1">
+                <div class="heading1">
+                    <h6>Delightful Experience</h6>
+                    <img id="Layer_1" src="separator.svg" alt="separator">
+                </div>
+                <div class="heading2">
+                    <h1>EXPERIENCE AUTHENTIC CUISINE</h1>
+                    <h1>IN OUR DINING</h1>
+                </div>
+                <h4>Come with family & feel the joy of mouthwatering food </h4>
+                <a href="#contactus"><button class="btn2">Find a Table</button></a>
+            </div>
+        </header>
+    </div>
+
+    <main class="container2" style="margin-top: 6rem;">
+        <img class="fullbody2img1" src="shape-2.png" alt="">
+        <img class="fullbody2img2" src="shape-6.png" alt="">
+        <img class="fullbody2img3" src="img-pattern.svg" alt="pic">
+        <img class="fullbody2img4" src="img-pattern.svg" alt="pic">
+        <img class="fullbody2img5" src="img-pattern.svg" alt="pic">
+        <div class="content2">
+            <div class="content2-1">
+                <h6>flavours for royality</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+            <div class="content2-2">
+                <h1>We Offer Top Notch</h1>
+            </div>
+            <div class="content2-3">
+                <div class="service-1">
+                    <div class="image-container">
+                        <img src="service-1.jpg" alt="pic1">
+                        <div class="shining-effect"></div>
+                    </div>
+                    <h2>Breakfast</h2>
+                    <a class="menuu" href="#menu"><h4>View menu</h4></a>
+                </div>
+                <div class="service-2"> 
+                    <div class="service-2para">
+                        <p>
+                           Reviving the authentic flavours and culinary skills with a touch of modernity with a spark of sterling hospitality!
+                        </p>
+                    </div>
+                    <div class="service-2rest">
+                        <div class="image-container">
+                            <img src="service-2.jpg" alt="pic1">
+                            <div class="shining-effect"></div>
+                        </div>
+                        <h2>Appetizers</h2>
+                        <a class="menuu" href="#menu"><h4>View menu</h4></a>
+                    </div>
+                </div>
+                <div class="service-3"> 
+                    <div class="image-container">
+                        <img src="service-3.jpg" alt="pic1">
+                        <div class="shining-effect"></div>
+                    </div>
+                    <h2>Beverages</h2>
+                    <a class="menuu" href="#menu"><h4>View menu</h4></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="container2">
+        <img class="fullbody3img1" src="shape-4.png" alt="pic">
+        <img class="fullbody3img2" src="shape-9.png" alt="">
+        <div class="content3">
+            <img class="content3-1img" src="special-dish-banner.jpg" alt="pic">
+            <img class="content3-2img" src="badge-1.png" alt="pic">
+            <div class="content3-3">
+                <div class="content3-3-1">
+                    <h6>special dish</h6>
+                    <img id="Layer_1" src="separator.svg" alt="separator">
+                </div>
+                <div class="content3-3-2">
+                    <h1>Lobster</h1>
+                    <h1>Tortellini</h1>
+                </div>
+                <p class="content3-3-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam molestiae amet quaerat cupiditate dolor, eos repudiandae deserunt tempore similique, ab eligendi tempora ducimus, nemo cum magnam sapiente perferendis officia iste at dicta.
+                </p>
+                <div class="content3-3-4">
+                    <h4>$40.00</h4>
+                    <h2>$20.00</h2>
+                </div>
+                <a href="#menu"><button class="btn3">View Our Menu</button></a>
+            </div>
+        </div>
+    </main>
+    
+    <main class="container2" id="menu">
+        <img class="fullbody4img1" src="shape-5.png" alt="pic">
+        <div class="content4">
+            <div class="content2-1">
+                <h6>special selection</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+            <div class="content2-2">
+                <h1>Delicious Menu</h1>
+            </div>
+            <div class="content4-3">
+                <div class="content4-3-1">
+                    <div class="content4-3-1-1">
+                        <img src="menu-1.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Greek</h4>
+                                    <h4>Salad</h4>
+                                </div>
+                                <div class="content4-3-1-tr-3">
+                                    <h5>Seasonal</h5> 
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr1"  width="75px;" color="grey" size="4">
+                                    <hr class="hr1" width="75px;" color="grey" size="4">
+                                </div>
+                                <h3>$25.50</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content4-3-1-1">
+                        <img src="menu-3.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Butternut</h4>
+                                    <h4>Pumpkin</h4>
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr2"  width="119px;" color="grey" size="4">
+                                    <hr class="hr2" width="119px;" color="grey" size="4">
+                                </div>
+                                <h3>$10.00</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content4-3-1-1">
+                        <img src="menu-5.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Olivas</h4>
+                                    <h4>Rellenes</h4>
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr10"  width="142px;" color="grey" size="4">
+                                    <hr class="hr10" width="142px;" color="grey" size="4">
+                                </div>
+                                <h3>$25.00</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Avacardos with crab meat, red onion, crab salad stuffed
+                                    red bell pepper and green bell pepper.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content4-3-2">
+                    <hr class="hr3"  width="1px;" color="grey" size="376">
+                </div>
+                <div class="content4-3-3">
+                    <div class="content4-3-1-1">
+                        <img src="menu-2.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Lasagne</h4>
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr11"  width="205px;" color="grey" size="4">
+                                    <hr class="hr11" width="205px;" color="grey" size="4">
+                                </div>
+                                <h3>$40.00</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Vegetables, cheeses, ground meats, tomato sauce,
+                                    seasonings and spices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content4-3-1-1">
+                        <img src="menu-4.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Tokusen</h4>
+                                    <h4>Wagyu</h4>
+                                </div>
+                                <div class="content4-3-1-tr-3">
+                                    <h5>New</h5> 
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr12"  width="88px;" color="grey" size="4">
+                                    <hr class="hr12" width="88px;" color="grey" size="4">
+                                </div>
+                                <h3>$39.00</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Vegetables, cheeses, ground meats, tomato sauce,
+                                    seasonings and spices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content4-3-1-1">
+                        <img src="menu-6.png" alt="pic">
+                        <div class="content4-3-1-r">
+                            <div class="content4-3-1-tr">
+                                <div class="content4-3-1-tr-1">
+                                    <h4>Opu</h4>
+                                    <h4>Fish</h4>
+                                </div>
+                                <div class="content4-3-2-tr-2">
+                                    <hr class="hr13"  width="195px;" color="grey" size="4">
+                                    <hr class="hr13" width="195px;" color="grey" size="4">
+                                </div>
+                                <h3>$49.00</h3>
+                            </div>
+                            <div class="content4-3-1-br">
+                                <p>
+                                    Vegetables, cheeses, ground meats, tomato sauce,
+                                    seasonings and spices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content4-4">
+                <h5>During winter daily from <span>7:00 pm</span> to <span>9:00 pm</span></h5>
+            </div>
+            <button class="btn4">View Our Menu</button>
+        </div>
+    </main>
+
+    <main class="container" id="aboutus">
+        <img class="fullbody5img1" src="shape-3.png" alt="pic">
+        <img class="fullbody5img2" src="about-banner.jpg" alt="pic">
+        <img class="fullbody5img3" src="badge-2-bg.png" alt="pic">
+        <div class="content5">
+            <div class="content5-left">
+                <div class="content5-left1">
+                    <div class="content2-1">
+                        <h6>Our Story</h6>
+                        <img id="Layer_1" src="separator.svg" alt="separator">
+                    </div>
+                </div>
+                <div class="content5-left2">
+                    <h1>Every Flavour</h1>
+                    <h1>Tells a Story</h1>
+                </div>
+                <div class="content5-left3">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, molestias dolores. Vel, voluptatum fuga tempore atque, consequatur asperiores eos quo laborum earum rerum harum ipsa rem! Corporis aspernatur.Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="content5-left4">
+                    <h5>Book through call</h5>
+                    <h4>+91-755-529-7791</h4>
+                </div>
+                <button class="btn4 btnside">Read More</button>
+            </div>
+            <div class="content5-right">
+                <div class="content5-right1">
+                    <img src="about-abs-image.jpg" alt="pic">
+                </div>
+                <div class="content5-right2">
+                    <h3>SINCE</h3>
+                    <h1>1930</h1>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class="container" id="ourchef">
+        <img class="fullbody6img1" src="testimonial-bg.jpg" alt="pic">
+        <div class="slider">
+            <div class="content6-1">
+                <h6>Our Chefs</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+            <div class="slider-container">
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef1.jpeg" alt="Card 1 Image">
+                        <p>
+                            MasterChef ranveer one of the best chefs for Indian cuisine all around the world 20 years to explore lost recipes from all around India
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef2.webp" alt="Card 2 Image">
+                        <p>
+                            Assistant chef raghav Malhotra experienced an assistance in culinary art from The Taj Mahal palace
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef3.jpeg" alt="Card 3 Image">
+                        <p>
+                            Mastered Japanese and Chinese cuisine and practiced culinary skills all around the world while serving flavours and joy
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef1.jpeg" alt="Card 1 Image">
+                        <p>
+                            MasterChef ranveer one of the best chefs for Indian cuisine all around the world 20 years to explore lost recipes from all around India
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef2.webp" alt="Card 2 Image">
+                        <p>
+                            Assistant chef raghav Malhotra experienced an assistance in culinary art from The Taj Mahal palace
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="card">
+                        <img src="chef3.jpeg" alt="Card 3 Image">
+                        <p>
+                            Mastered Japanese and Chinese cuisine and practiced culinary skills all around the world while serving flavours and joy
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;<button>
+            <button class="next" onclick="nextSlide()">&#10095;<button>
+        </div>
+    </main>
+
+    <main class="container2" id="contactus" style="margin-top: 6rem;">
+        <img class="fullbody7img1" src="form-pattern.png" alt="pic">
+        <img class="fullbody7img2" src="shape-7.png" alt="pic">
+        <div class="content2-1">
+                <h6>Online Bookings</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+        <div class="content7">
+            <div class="content7-l">
+                <h2>Online Reservation</h2>
+                <p>Booking request <span>+88-123-123456</span> or fill out the order form</p>
+                <div class="content7-l0">
+                    <div class="content7-l1">
+                        <form id="bookingForm">
+                            <div class="form-group down">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                            </div>
+                            <div class="form-group down">
+                                <select id="persons" name="persons" required>
+                                    <option value="" disabled selected>4 Person</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 Persons</option>
+                                    <option value="3">3 Persons</option>
+                                    <option value="4">4 Persons</option>
+                                    <option value="5">5 Persons</option>
+                                    <option value="6">6 Persons</option>
+                                </select>
+                                <div class="date-wrapper">
+                                    <input type="date" id="date" name="date" required>
+                                </div>
+                                <select id="time" name="time" required>
+                                    <option value="" disabled selected>04:00 pm</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">01:00 PM</option>
+                                    <option value="13:30">01:30 PM</option>
+                                    <option value="14:00">02:00 PM</option>
+                                    <option value="14:30">02:30 PM</option>
+                                    <option value="15:00">03:00 PM</option>
+                                    <option value="15:30">03:30 PM</option>
+                                    <option value="16:00">04:00 PM</option>
+                                    <option value="16:30">04:30 PM</option>
+                                    <option value="17:00">05:00 PM</option>
+                                    <option value="17:30">05:30 PM</option>
+                                    <option value="18:00">06:00 PM</option>
+                                    <option value="18:30">06:30 PM</option>
+                                    <option value="19:00">07:00 PM</option>
+                                    <option value="19:30">07:30 PM</option>
+                                    <option value="20:00">08:00 PM</option>
+                                    <option value="20:30">08:30 PM</option>
+                                    <option value="21:00">09:00 PM</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="4" placeholder="Message"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <button type="button" id="bookButton" class="btn5">BOOK A TABLE</button>
+                </div>
+            </div>
+            <div id="confirmationModal" class="modal">
+                <div class="modal-content">
+                    <div class="model-content2">
+                        <h2>Booking Confirmed!</h2>
+                        <p>Your token number is: <span id="tokenNumber"></span></p>
+                        <button class="btn7" onclick="printToken()">Print</button>
+                    </div>
+                    <div class="model-content1"><span class="close-button">&times;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="content7-r">
+                <div class="content7-r1">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="content7-r2">
+                    <div class="content7-r2u">
+                        <h4>Booking Request</h4>
+                    </div>
+                    <div class="content7-r2d">
+                        <h2>+91-755-529-7791</h2>
+                    </div>
+                </div>
+                <div class="content7-r3">
+                    <img id="layer2" src="stop_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <div class="content7-r4">
+                    <div class="content7-r4u">
+                        <h4>Location</h4>
+                    </div>
+                    <div class="content7-r4d">
+                        <h5>Urban Restraunt Sector-88</h5>
+                        <h5>Faridabad, Haryana</h5>
+                    </div>
+                </div>
+                <div class="content7-r5">
+                    <div class="content7-r5u">
+                        <h4>Lunch Time</h4>
+                    </div>
+                    <div class="content7-r5d">
+                        <h5>Monday to Sunday</h5>
+                        <h5>2.00 pm to 5.00 pm</h5>
+                    </div>
+                </div>
+                <div class="content7-r6">
+                    <div class="content7-r6u">
+                        <h4>Dinner Time</h4>
+                    </div>
+                    <div class="content7-r6d">
+                        <h5>Monday to Sunday</h5>
+                        <h5>8.00 pm to 11.00 pm</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="marquee">
+            <marquee>
+                <h3>For placing order online<span><a class="btn6" href="https://www.zomato.com/ncr/urban-chinesee-sector-10-faridabad">Click Here!</a></span></h3>
+            </marquee>
+        </div>
+    </main>
+
+    <main class="container">
+        <img class="fullbody8img1" src="shape-6.png" alt="">
+        <img class="fullbody8img2" src="shape-2.png" alt="">
+        <img class="fullbody8img3" src="shape-6.png" alt="">
+        <div class="content8">
+            <div class="content8-1">
+                <h6>Customer Reviews</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+            <div class="content8-2">
+                <div class="content8-21">
+                    <h2>Write a Review</h2>
+                    <p>Please give your <span>feedback</span> here. Your comments are appreciated</p>
+                    <div class="content7-l0">
+                        <div class="content7-l1">
+                            <form id="bookingForm">
+                                <div class="form-group2">
+                                    <input type="text" id="name2" name="name" placeholder="Your Name" required>
+                                    <input type="tel" id="phone2" name="phone" placeholder="Phone Number" required>
+                                </div>
+                                <div class="form-group2">
+                                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                </div>
+                                <div class="form-group2">
+                                    <textarea id="message2" name="message" rows="4" placeholder="Your review" required></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <button type="button" id="bookButton2" class="btn5">POST YOUR REVIEW</button>
+                    </div>
+                </div>
+                <div class="content8-3">
+                    <div class="image-slider">
+                        <div class="image-slider-container">
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>
+                                        I wanted to thank you for    inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>I wanted to thank you for inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-half.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>I wanted to thank you for inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>I wanted to thank you for inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>I wanted to thank you for inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-half.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="image-slide">
+                                <div class="image-card">
+                                    <img class="image-card-img1" src="testi-avatar.jpg" alt="Card 1 Image">
+                                    <p>I wanted to thank you for inviting me down
+                                        for that amazing dinner the other night
+                                        the food was extraordinary.
+                                    </p>
+                                    <div class="image-card2">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-fill.svg"
+                                        alt="pic">
+                                        <img class="image-card-img2"  src="star-half.svg"
+                                        alt="pic">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="image-prev" onclick="prevImageSlide()">&#10094;</button>
+                        <button class="image-next" onclick="nextImageSlide()">&#10095;</button>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+    </main>
+   
+    <main class="container5">
+        <img class="fullbody9img1" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img2" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img3" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img4" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img5" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img6" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img7" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img8" src="footer-form-pattern.svg" alt="">
+        <img class="fullbody9img9" src="storefront_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        <img class="fullbody9img10" src="storefront_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        <img class="fullbody9img11" src="storefront_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        <img class="fullbody9img12" src="storefront_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        <div class="content9">
+            <div class="content2-1">
+                <h6>Why choose us</h6>
+                <img id="Layer_1" src="separator.svg" alt="separator">
+            </div>
+            <div class="content2-2 contnt9">
+                <h1>Our Strength</h1>
+            </div>
+            <div class="content9-3 contnt91">
+                <div class="card2">
+                    <img src="features-icon-1.png" alt="pic11">
+                    <h4>Hygienic Food</h4>
+                    <p>
+                        Lorem ipsum dolor sit ametrtdts consectetur and.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img src="features-icon-2.png" alt="pic11">
+                    <h4>Fresh Environment</h4>
+                    <p>
+                        Lorem ipsum dolor sit ametrtdts consectetur and.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img src="features-icon-3.png" alt="pic11">
+                    <h4>Skilled Chefs</h4>
+                    <p>
+                        Lorem ipsum dolor sit ametrtdts consectetur and.
+                    </p>
+                </div>
+                <div class="card2">
+                    <img src="features-icon-4.png" alt="pic11">
+                    <h4>Events & Party</h4>
+                    <p>
+                        Lorem ipsum dolor sit ametrtdts consectetur and.
+                    </p>
+                </div>
+            </div>
+            <div class="content9-4"></div>
+        </div>
+    </main>
+
+    <main class="container2">
+        <img class="fullbody10img1" src="footer-form-bg.png" alt="">
+        <img class="fullbody10img2" src="footer-form-pattern.svg" alt="pic">
+        <img class="fullbody10img3" src="footer-form-pattern.svg" alt="pic">
+        <img class="fullbody10img4" src="footer-bg.jpg" alt="pic">
+        <div class="content10">
+            <div class="content10-1">
+                <div class="content10-0">
+                    <ul class="nav-link">
+                        <li class="liinks"><a href="#">HOME</a></li>
+                        <li class="liinks"><a href="#menu">MENUS</a></li>
+                        <li class="liinks"><a href="#aboutus">ABOUT US</a></li>
+                        <li class="liinks"><a href="#ourchef">OUR CHEFS</a></li>
+                        <li class="liinks"><a href="#contactus">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div class="content10-1l">
+                    <div class="nav-logo">
+                        <a href="#">
+                            <img class="logo" src="Chef_icon.svg.png" alt="photo">
+                        </a>
+                        <div class="nav-content">
+                            <h1>Urban</h1>
+                            <h4>restraunt</h4>
+                        </div>
+                    </div>
+                    <div class="content10-1l2">
+                        <h5>Urban Restraunt, Sector-88, Faridabad, Haryana</h5>
+                        <h5>booking@urban.com</h5>
+                        <h5>Booking Request : +91-755-529-7791</h5>
+                        <h5>Open : 09:00 am - 01:00 pm</h5>
+                    </div>
+                    <div class="content10-1l3">
+                        <img class="content10-1l3svg" src="stop_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="pic">
+                        <img class="content10-1l3svg" src="stop_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="pic">
+                        <img class="content10-1l3svg" src="stop_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="pic">
+                    </div>
+                    <div class="content10-1l4">
+                        <h1>Get News & Offers</h1>
+                        <h6>Subscribe us & Get <span>25% Off</span></h6>
+                    </div>
+                    <div class="content10-1l5">
+                        <div class="form-group3">
+                            <input type="email" id="email3" name="email" placeholder="Your Email" required>
+                            <button type="button" id="bookButton3" class="btn10">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="content10-1r">
+                    <h4>Facebook</h4>
+                    <h4>Instagram</h4>
+                    <h4>Twitter</h4>
+                    <h4>YouTube</h4>
+                    <h4>Google Map</h4>
+                </div>
+            </div>
+            <div class="content10-3">
+                <div class="content10-3-1">
+                    <h6>&#169; 2024 Urban. All Rights Reserved</h6>
+                    <hr class="hr3"  width="1px;" color="grey" size="16">
+                    <h6>Designed by <a href="">Saksham</a></h6>
+                </div>
+                <div class="content10-3-2">
+                    <div class="content10-2">
+                        <div class="facebook">
+                            <a href="">
+                                <img src="facebook.svg" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="whatsapp">
+                            <a href="">
+                                <img src="whatsapp.svg" alt="whatsapp">
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="">
+                                <img src="instagram.svg" alt="instagram">
+                            </a>
+                        </div>
+                        <div class="youtube">
+                            <a href="">
+                                <img src="youtube.svg" alt="youtube">
+                            </a>
+                        </div>
+                        <div class="maps">
+                            <a href="">
+                                <img src="geo-alt-fill.svg" alt="maps">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="scroll-to-top-button">
+        <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn-1 btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <img src="keyboard_arrow_up_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="pic">
+        </button>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js" integrity="sha512-is1ls2rgwpFZyixqKFEExPHVUUL+pPkBEPw47s/6NDQ4n1m6T/ySeDW3p54jp45z2EJ0RSOgilqee1WhtelXfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script1.js"></script>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+    <script src="script4.js"></script>
+    <script src="script5.js"></script>
+</body>
+</html>
